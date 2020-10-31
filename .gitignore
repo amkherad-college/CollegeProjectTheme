@@ -1,4 +1,27 @@
-_site/
-.sass-cache/
-.jekyll-cache/
+# jekyll
 .jekyll-metadata
+_site
+.sass-cache
+.jekyll-cache
+
+
+# bundler
+*.gem
+Gemfile.lock
+
+
+# python
+*.whl
+
+
+# npm
+node_modules
+package-lock.json
+
+
+# lighthouse
+*.report.html
+
+
+# action
+changelog.report.md
